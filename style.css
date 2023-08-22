@@ -1,0 +1,227 @@
+
+ 
+  .topnav {
+    overflow: hidden;
+  }
+  
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    padding-left: 80px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    background-color: #ddd;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc; 
+    }
+  }
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: azure;
+    padding: 40px;
+    padding-left: 60px;
+    background-color: rgba(17, 17, 17, 0.836);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .title{
+    display: flex;
+  }
+  .title img{
+    width: 30px;
+    
+  }
+  
+  .Subscribe-form{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    border: none;
+    outline: none;
+    padding-left: 80px;
+  }
+  .Subscribe-form button{
+    background-color:rgba(0, 128, 0, 0.849);
+    border: none;
+    outline: none;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .policy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .terms{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 80px;
+  }
+  .terms .options{
+    display: flex;
+    justify-content: var(10px);
+    align-items: center;
+  }
+  .options div{
+    padding: 20px;
+  }
+  .options span{
+    border: 3px solid green;
+    padding: 20px;
+  }
+  .quantity{
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+    margin-top: 40px;
+  }
+  .details-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px;
+    background-color: rgba(255, 228, 196, 0.733);
+  }
+ 
+  .details span{
+    background-color: #cccccc71;
+    padding: 20px;
+  }
+  .details div{
+    padding: 20px;
+  }
+  .link div{
+    display: flex;
+    flex-direction: column;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+  }
+  footer{
+    background-color: green;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  footer div{
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .title{display: none;}
+    .icons{
+        display: none;
+    }
+    .Subscribe{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+    .policy{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .terms{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .details-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .icon{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+  
+}
+
+/* @media only screen and (min-width: 500px) {
+
+    .title{display: none;}
+    .icons{
+        display: none;
+    }
+  
+    .policy{
+        display: flex;
+        flex-direction:row;
+    }
+    .terms{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .details-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .icon{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+  
+}  */
+
+
+
+
+
+
+ 
