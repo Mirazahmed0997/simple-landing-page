@@ -136,6 +136,7 @@ body {
   .details span{
     background-color: #cccccc71;
     padding: 20px;
+    border-radius: 50%;
   }
   .details div{
     padding: 20px;
@@ -186,9 +187,11 @@ body {
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-    .icon{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
+    .contact-container .details-container .details .icon span{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       width: 20px;
+       margin: 5px;
     }
   
 }
